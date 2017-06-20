@@ -59,10 +59,10 @@ public class SortTreeListener implements SelectionListener {
 					} 
 					if (sort) {
 						String[] values = this.getColumnValues(treeItems[i],numOfColumns);//value present in the corresponding column of the row j [TreeItem3, -1380695479]
-						System.out.println(treeItems[i].getItemCount());
+	//					System.out.println(treeItems[i].getItemCount());
 						TreeItem[] subItems = treeItems[i].getItems();
 //						for(int ii=0; ii< subItem.length ; ii++){
-						System.out.println(Arrays.toString(subItems));
+		//				System.out.println(Arrays.toString(subItems));
 //						}
 //						TreeItem[] subItems = treeItems[i].getItems(); //getItems ->[TreeItem {TreeItem0}, TreeItem {TreeItem1}, TreeItem {TreeItem2}, TreeItem {TreeItem3}, TreeItem {TreeItem4}]
 						//value inside the tree items of i -> subItems TreeItem{SubSubTreeItem0}, ...
