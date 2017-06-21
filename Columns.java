@@ -55,7 +55,7 @@ public class Columns {
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch())
 				display.sleep();
-			  System.out.println("Test Buddy1");
+			  System.out.println("Test Buddy2");
 		}
 		display.dispose();
 	}
