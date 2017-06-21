@@ -16,7 +16,7 @@ public class Columns {
 		shell.setText("Basic Tree with Columns");
 		shell.setLayout(new FillLayout());
 		shell.setSize(400, 300);
-
+//Hey testing bro!
 		Tree tree = new Tree(shell, SWT.BORDER | SWT.V_SCROLL | SWT.H_SCROLL);
 		tree.setHeaderVisible(true);
 
@@ -55,7 +55,7 @@ public class Columns {
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch())
 				display.sleep();
-			    System.out.println("Dummy!");
+			  System.out.println("Test Buddy");
 		}
 		display.dispose();
 	}
